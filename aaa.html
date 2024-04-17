@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Api token</title>
+    <link rel="stylesheet" href="aaa.css">
+</head>
+
+<body>
+    <main class="main">
+        
+    <div class="container">
+        <h1>Workspaces</h1>
+        
+        <hr>
+        
+        <h2>Create New Workspace</h2>
+        <form id="workspace-form">
+            <div>
+                <label for="title">Name:</label>
+                <input type="text" id="title" name="title" required maxlength="100">
+            </div><br>
+
+            <div>
+                <label for="description">Description:</label>
+                <input id="description" name="description"></input>
+            </div><br><br>
+            <input type="submit" value="Create Workspace">
+        </form>
+    </div>
+    <div id="workspace-list"></div>
+    </main>
+    
+    <script src="aaa.js"></script>
+</body>
+
+</html>
